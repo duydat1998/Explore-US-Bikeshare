@@ -55,7 +55,7 @@ def get_filters():
     
     
     day = None
-    if filter_option in ["month", "both"]:
+    if filter_option in ["day", "both"]:
         print("\n")
         
         while True:

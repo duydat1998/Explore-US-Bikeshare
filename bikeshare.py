@@ -23,8 +23,7 @@ def get_filters():
     while True:
         city = input("Would you like to see data for Chicago, New York City, or Washington?\n").lower()
         if city not in CITY_DATA.keys():
-            print("\nWe only support exploring data for Chicago, New York City, or Washington, try again.")
-            print("\n")
+            print("\nWe only support exploring data for Chicago, New York City, or Washington, try again.\n")
             continue
         else:
             break
@@ -34,8 +33,7 @@ def get_filters():
     while True:
         filter_option = input("Would you like to filter the data by month, day, both or not at all?\n").lower()
         if filter_option not in ["month", "day", "both", "not at all"]:
-            print("\nI can't understand, try again.")
-            print("\n")
+            print("\nI can't understand, try again.\n")
             continue
         else:
             break
@@ -190,8 +188,7 @@ def user_stats(df, city):
     if city != "washington":
         # Display counts of gender
         user_genders_count = df['Gender'].value_counts()
-        print(f'Counts of user genders:\n{user_genders_count}')
-        print("\n")
+        print(f'Counts of user genders:\n{user_genders_count}\n')
 
 
         # Display earliest, most recent, and most common year of birth

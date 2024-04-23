@@ -20,7 +20,7 @@ Randomly selected data for the first six months of 2017 are provided for all thr
 - End Station (e.g., Sedgwick St & North Ave)
 - User Type (Subscriber or Customer)
 
-The Chicago and New York City files also have the following two columns:
+The **Chicago** and **New York City** files also have the following two columns:
 - Gender
 - Birth Year
 
@@ -47,9 +47,7 @@ The Chicago and New York City files also have the following two columns:
 
    - counts of each user type
    - counts of each gender (only available for NYC and Chicago)
-   - earliest, most recent, most common year of birth (only available for NYC and Chicago)
-
-
+   - earliest, most recent, most common year of birth **(only available for NYC and Chicago)**
 
 
 ## Software Needs
